@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main" class="">
+
+        <p><span id="player-name">Player 1 </span>:<span id="player-score">0</span></p>
+        <p>Time spent on question: <span id="question-time">0</span> seconds</p>
+        <p>Total time: <span id="total-time">0</span> seconds</p>
+
+
+        <button id="start-button" onclick="play_game()">Start game!</button>
+
+        <div id="question-wrapper" class="">
+
+            <p id="question"></p>
+            <button id="hint-button">Get a hint!</button>
+            <p id="question-hint"></p>
+
+            <form id="answer-form">
+                <input id="answer" type="number">
+                <input type="submit">
+            </form>
+
+        </div>
+        
+
+    </div>
+
+    <script src="/main.js" type="module"></script>
+</body>
+</html>
